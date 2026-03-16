@@ -1,9 +1,9 @@
 const signals = [
-  "Authorised Synco partner",
-  "ISO certified",
-  "Patents P-189276 & P-191992",
+  "Trusted manufacturer network",
+  "ISO certified products",
+  "Factory-direct supply",
   "Response within 24hrs",
-  "Factory-direct expertise",
+  "Nigeria-based agency",
 ];
 
 export function TrustSignals() {

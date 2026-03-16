@@ -1,13 +1,15 @@
 import type { Metadata } from "next";
-import { Outfit, Source_Sans_3 } from "next/font/google";
+import { Space_Grotesk, Source_Sans_3 } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { ScrollToTop } from "@/components/ScrollToTop";
 
-const outfit = Outfit({
+const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
   variable: "--font-display",
   display: "swap",
+  weight: ["400", "500", "600", "700"],
 });
 
 const sourceSans = Source_Sans_3({
@@ -18,15 +20,28 @@ const sourceSans = Source_Sans_3({
 
 export const metadata: Metadata = {
   title: {
-    default: "Hydra — Pre-insulated Piping Solutions for Europe",
-    template: "%s | Hydra",
+    default: "Hydra Agency — Client-to-Manufacturer Piping Solutions | Nigeria & Europe",
+    template: "%s | Hydra Agency",
   },
   description:
-    "Hydra connects construction firms, contractors and developers with premium Synco PEX pre-insulated pipe systems. Authorised Synco Partner. Fast quotes, expert advice, delivery across Europe.",
-  keywords: ["pre-insulated pipes", "PEX", "Synco", "district heating", "geothermal", "Poland", "Europe"],
+    "Hydra is Nigeria's authorised Client-to-Manufacturer agency for pre-insulated piping systems. Connecting contractors and developers directly with certified pipe manufacturers across Nigeria and Europe. ISO certified. Factory-direct pricing.",
+  keywords: [
+    "pre-insulated pipes",
+    "PEX piping",
+    "manufacturer partner",
+    "district heating",
+    "geothermal pipes",
+    "Nigeria piping",
+    "Africa manufacturer",
+    "factory direct supply",
+    "ISO certified pipes",
+    "pipe agency Nigeria",
+    "Europe piping systems",
+  ],
   openGraph: {
-    title: "Hydra — Pre-insulated Piping Solutions for Europe",
-    description: "Authorised Synco Partner. Premium PEX pre-insulated pipes. Fast quotes, delivery across Europe.",
+    title: "Hydra Agency — Client-to-Manufacturer Piping Solutions",
+    description:
+      "Authorised Manufacturer Partner. Premium pre-insulated PEX pipes. Nigeria-based agency serving West Africa and Europe. Factory-direct pricing, 24h quote turnaround.",
     type: "website",
   },
   robots: {
@@ -41,11 +56,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${outfit.variable} ${sourceSans.variable}`}>
+    <html lang="en" className={`${spaceGrotesk.variable} ${sourceSans.variable}`}>
       <body className="font-sans antialiased min-h-screen flex flex-col">
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
+        <ScrollToTop />
       </body>
     </html>
   );
