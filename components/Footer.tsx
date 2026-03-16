@@ -27,8 +27,8 @@ export function Footer() {
                 </svg>
               </div>
               <span className="font-display font-bold text-lg">
-                <span className="text-hydra-gold">Hydra</span>
-                <span className="text-white"> Agency</span>
+                <span className="text-white">Hydra </span>
+                <span className="text-hydra-gold">Forge</span>
               </span>
             </Link>
 
@@ -130,7 +130,7 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="mt-12 pt-6 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-xs text-slate-600" suppressHydrationWarning>
-            © {new Date().getFullYear()} Hydra Agency Ltd. All rights reserved.
+            © {new Date().getFullYear()} Hydra Forge Ltd. All rights reserved.
           </p>
           <div className="flex items-center gap-4 text-xs text-slate-600">
             <span>RC: 1234567 · CAC Nigeria</span>

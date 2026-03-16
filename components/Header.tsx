@@ -30,7 +30,7 @@ export function Header() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16">
 
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 font-display font-semibold text-lg text-slate-900">
+          <Link href="/" className="flex items-center gap-2">
             <div className="w-7 h-7 rounded-md bg-hydra-blue flex items-center justify-center flex-shrink-0">
               <svg viewBox="0 0 20 20" fill="none" className="w-4 h-4 text-white">
                 <circle cx="10" cy="10" r="4" stroke="currentColor" strokeWidth="1.5" />
@@ -39,7 +39,14 @@ export function Header() {
                 <path d="M2 10H18" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" />
               </svg>
             </div>
-            Hydra
+            <div className="flex flex-col leading-tight">
+              <span className="font-display font-bold text-base text-slate-900 leading-none">
+                Hydra <span className="text-hydra-gold">Forge</span>
+              </span>
+              <span className="text-[10px] font-medium text-slate-400 tracking-wide leading-none mt-0.5">
+                Connecting Industry Worldwide
+              </span>
+            </div>
           </Link>
 
           {/* Desktop nav */}

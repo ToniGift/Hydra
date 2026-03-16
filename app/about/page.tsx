@@ -2,9 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
-  title: "About Us — Hydra Agency",
+  title: "About Us — Hydra Forge",
   description:
-    "Hydra Agency is Nigeria's authorised Client-to-Manufacturer bridge for pre-insulated pipe systems. Learn how we connect contractors and developers directly to ISO-certified manufacturers across West Africa and Europe.",
+    "Hydra Forge is Nigeria's authorised Client-to-Manufacturer bridge for pre-insulated pipe systems. Learn how we connect contractors and developers directly to ISO-certified manufacturers across West Africa and Europe.",
 };
 
 export default function AboutPage() {
@@ -19,7 +19,7 @@ export default function AboutPage() {
             Our Story
           </span>
           <h1 className="font-display text-4xl sm:text-5xl font-bold text-white">
-            About Hydra Agency
+            About Hydra <span className="text-hydra-gold">Forge</span>
           </h1>
           <p className="text-slate-300 mt-3 text-base max-w-md">
             Nigeria&apos;s bridge between clients and manufacturers — since day one.
@@ -39,13 +39,13 @@ export default function AboutPage() {
               Eliminating the Middlemen in Industrial Supply
             </h2>
             <p className="text-slate-700 leading-relaxed mb-4">
-              Hydra Agency was established to solve a fundamental problem: construction firms,
+              Hydra Forge was established to solve a fundamental problem: construction firms,
               contractors and developers in Nigeria and across Africa were paying unnecessary
               premiums through layers of distribution — without access to the manufacturer&apos;s
               direct pricing, technical documentation, or quality guarantees.
             </p>
             <p className="text-slate-700 leading-relaxed">
-              We built Hydra as an authorised agency bridge — connecting our clients directly
+              We built Hydra Forge as an authorised agency bridge — connecting our clients directly
               to our certified manufacturer network. Every product we source is ISO
               certified, backed by full technical documentation, and delivered with
               manufacturer-certified support. Our value is not just in supply — it is in the
@@ -97,7 +97,7 @@ export default function AboutPage() {
             Our Advantages
           </span>
           <h2 className="font-display text-2xl sm:text-3xl font-bold text-slate-900 mb-8">
-            Why Choose Hydra?
+            Why Choose Hydra Forge?
           </h2>
           <div className="grid sm:grid-cols-3 gap-5">
             {[
@@ -149,7 +149,7 @@ export default function AboutPage() {
                 client: "BuildRight Nigeria Ltd",
                 location: "Lagos Island, Nigeria",
                 story:
-                  "BuildRight required pre-insulated PEX pipes for a 240-unit housing development in Lagos. Hydra connected them directly to the manufacturing facility, bypassing three distribution layers — delivering ISO-certified product at factory-direct cost and on a 6-week lead time.",
+                  "BuildRight required pre-insulated PEX pipes for a 240-unit housing development in Lagos. Hydra Forge connected them directly to the manufacturing facility, bypassing three distribution layers — delivering ISO-certified product at factory-direct cost and on a 6-week lead time.",
                 image: "/img-4.jpeg",
                 metrics: [
                   { label: "Units Served", value: "240+" },
@@ -165,7 +165,7 @@ export default function AboutPage() {
                 client: "Apex Infrastructure Ltd",
                 location: "Abuja, Nigeria",
                 story:
-                  "Apex Infrastructure required geothermal and district heating pipe systems for a commercial campus in Abuja FCT. Hydra coordinated a factory-direct arrangement, provided full ISO documentation and manufacturer-certified installation guidance throughout the project.",
+                  "Apex Infrastructure required geothermal and district heating pipe systems for a commercial campus in Abuja FCT. Hydra Forge coordinated a factory-direct arrangement, provided full ISO documentation and manufacturer-certified installation guidance throughout the project.",
                 image: "/img-8.jpeg",
                 metrics: [
                   { label: "Pipe Diameter", value: "63mm" },
@@ -233,7 +233,7 @@ export default function AboutPage() {
           </h2>
           <div className="grid sm:grid-cols-2 gap-4 text-sm text-slate-700">
             <div>
-              <div className="font-semibold text-slate-900 mb-1">Hydra Agency Ltd</div>
+              <div className="font-semibold text-slate-900 mb-1">Hydra Forge Ltd</div>
               <div>123 Adeola Odeku Street</div>
               <div>Victoria Island, Lagos</div>
               <div>Nigeria</div>
