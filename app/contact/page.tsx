@@ -34,18 +34,21 @@ export default function ContactPage() {
           {/* ── Left: Company Info ─────────────────────────────────────── */}
           <div className="lg:col-span-2 space-y-6">
             {/* Lagos / operations image */}
-            <div className="relative h-44 rounded-2xl overflow-hidden shadow-md">
+            <div className="relative h-56 rounded-2xl overflow-hidden shadow-lg">
               <Image
-                src="/img-3.jpeg"
-                alt="Hydra Agency factory operations — pre-insulated pipe systems"
+                src="https://images.unsplash.com/photo-1588421357574-87938a86fa28?w=900&q=80"
+                alt="Lagos, Nigeria skyline and cityscape"
                 fill
-                className="object-cover"
+                className="object-cover object-center"
                 sizes="(max-width: 1024px) 100vw, 40vw"
               />
-              <div className="absolute inset-0 bg-gradient-to-r from-hydra-navy/85 via-hydra-navy/40 to-transparent" />
-              <div className="absolute inset-0 flex flex-col justify-center px-6">
-                <div className="text-hydra-gold text-xs font-bold uppercase tracking-widest mb-1">Headquartered in</div>
-                <div className="font-display font-bold text-white text-xl">Lagos, Nigeria</div>
+              <div className="absolute inset-0 bg-gradient-to-t from-hydra-navy/90 via-hydra-navy/40 to-transparent" />
+              <div className="absolute bottom-0 left-0 right-0 px-6 pb-5">
+                <div className="flex items-center gap-1.5 mb-1">
+                  <span className="w-1.5 h-1.5 rounded-full bg-hydra-gold" />
+                  <div className="text-hydra-gold text-xs font-bold uppercase tracking-widest">Headquartered in</div>
+                </div>
+                <div className="font-display font-bold text-white text-2xl">Lagos, Nigeria</div>
                 <div className="text-slate-300 text-xs mt-1">Operating across West Africa &amp; Europe</div>
               </div>
             </div>
@@ -63,7 +66,7 @@ export default function ContactPage() {
               <dl className="space-y-3 text-sm">
                 <div>
                   <dt className="text-xs font-semibold uppercase tracking-wide text-slate-500 mb-0.5">Registered Name</dt>
-                  <dd className="font-semibold text-slate-900">Hydra Forge Ltd</dd>
+                  <dd className="font-semibold text-slate-900">Hydra Forge Ltd.</dd>
                 </div>
                 <div>
                   <dt className="text-xs font-semibold uppercase tracking-wide text-slate-500 mb-0.5">Address</dt>

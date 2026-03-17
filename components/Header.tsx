@@ -41,7 +41,7 @@ export function Header() {
             </div>
             <div className="flex flex-col leading-tight">
               <span className="font-display font-bold text-base text-slate-900 leading-none">
-                Hydra <span className="text-hydra-gold">Forge</span>
+                Hydra <span className="text-hydra-gold">Forge</span> Ltd.
               </span>
               <span className="text-[10px] font-medium text-slate-400 tracking-wide leading-none mt-0.5">
                 Connecting Industry Worldwide

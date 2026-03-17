@@ -8,7 +8,7 @@ export function Footer() {
           {/* Brand Column */}
           <div className="lg:col-span-1">
             <Link href="/" className="flex items-center gap-2.5 mb-5 group">
-              <div className="w-8 h-8 rounded-lg bg-hydra-blue flex items-center justify-center">
+              <div className="w-8 h-8 rounded-lg bg-hydra-blue flex items-center justify-center flex-shrink-0">
                 <svg viewBox="0 0 24 24" fill="none" className="w-5 h-5 text-white">
                   <circle cx="12" cy="12" r="3.5" stroke="currentColor" strokeWidth="1.5" />
                   <path
@@ -26,10 +26,16 @@ export function Footer() {
                   <path d="M3 12H21" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" />
                 </svg>
               </div>
-              <span className="font-display font-bold text-lg">
-                <span className="text-white">Hydra </span>
-                <span className="text-hydra-gold">Forge</span>
-              </span>
+              <div className="flex flex-col leading-tight">
+                <span className="font-display font-bold text-lg leading-none">
+                  <span className="text-white">Hydra </span>
+                  <span className="text-hydra-gold">Forge</span>
+                  <span className="text-white"> Ltd.</span>
+                </span>
+                <span className="text-xs text-slate-400 font-medium tracking-wide mt-0.5">
+                  Connecting Industry Worldwide
+                </span>
+              </div>
             </Link>
 
             <p className="text-slate-400 text-sm leading-relaxed mb-5">

@@ -288,7 +288,7 @@ export default function HomePage() {
               className="flex flex-wrap items-center gap-8 mt-10 pt-8 border-t border-slate-800"
             >
               {[
-                { value: "40+", label: "Years Expertise" },
+                { value: "20+", label: "Years Expertise" },
                 { value: "24h", label: "Quote Turnaround" },
                 { value: "100%", label: "ISO Certified" },
               ].map((stat) => (
@@ -362,7 +362,7 @@ export default function HomePage() {
                 Our Process
               </span>
               <h2 className="font-display text-3xl sm:text-4xl font-bold text-slate-900 dark:text-white mb-4">
-                How Hydra Works
+                How Hydra Forge Works
               </h2>
               <p className="text-slate-500 dark:text-slate-400 text-base leading-relaxed mb-6">
                 We remove complexity from industrial procurement — connecting your project directly
@@ -483,7 +483,7 @@ export default function HomePage() {
 
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
             {[
-              { target: 40, suffix: "+", label: "Years of Industry Expertise", sublabel: "Manufacturer network" },
+              { target: 20, suffix: "+", label: "Years of Industry Expertise", sublabel: "Manufacturer network" },
               { target: 125, suffix: "mm", label: "Maximum Pipe Diameter", sublabel: "16–125mm full range" },
               { target: 10, suffix: "+", label: "Clients Connected", sublabel: "Nigeria & Europe" },
               { target: 24, suffix: "h", label: "Quote Turnaround", sublabel: "Guaranteed response time" },
@@ -769,7 +769,7 @@ export default function HomePage() {
                 Why Choose Us
               </span>
               <h2 className="font-display text-3xl sm:text-4xl font-bold text-slate-900 dark:text-white mb-4">
-                The Hydra Advantage
+                The Hydra Forge Advantage
               </h2>
               <p className="text-slate-500 dark:text-slate-400 max-w-xl">
                 We are not a distributor. We are a strategic bridge — your direct line to the

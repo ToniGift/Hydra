@@ -19,7 +19,7 @@ export default function AboutPage() {
             Our Story
           </span>
           <h1 className="font-display text-4xl sm:text-5xl font-bold text-white">
-            About Hydra <span className="text-hydra-gold">Forge</span>
+            About Hydra <span className="text-hydra-gold">Forge</span> Ltd.
           </h1>
           <p className="text-slate-300 mt-3 text-base max-w-md">
             Nigeria&apos;s bridge between clients and manufacturers — since day one.
@@ -233,7 +233,7 @@ export default function AboutPage() {
           </h2>
           <div className="grid sm:grid-cols-2 gap-4 text-sm text-slate-700">
             <div>
-              <div className="font-semibold text-slate-900 mb-1">Hydra Forge Ltd</div>
+              <div className="font-semibold text-slate-900 mb-1">Hydra Forge Ltd.</div>
               <div>123 Adeola Odeku Street</div>
               <div>Victoria Island, Lagos</div>
               <div>Nigeria</div>
