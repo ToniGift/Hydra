@@ -3,9 +3,9 @@ import Image from "next/image";
 import { ContactForm } from "@/components/ContactForm";
 
 export const metadata = {
-  title: "Contact — Hydra Forge",
+  title: "Contact — Hydra Merge",
   description:
-    "Get in touch with Hydra Forge. Nigeria-based Client-to-Manufacturer agency for pre-insulated piping. We respond within 24 hours.",
+    "Get in touch with Hydra Merge. Nigeria-based Client-to-Manufacturer agency for pre-insulated piping. We respond within 24 hours.",
 };
 
 export default function ContactPage() {
@@ -20,7 +20,7 @@ export default function ContactPage() {
             Get in Touch
           </span>
           <h1 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-3">
-            Contact Hydra <span className="text-hydra-gold">Forge</span>
+            Contact Hydra <span className="text-hydra-gold">Merge</span>
           </h1>
           <p className="text-slate-300 text-base sm:text-lg max-w-xl">
             General inquiries, partnership discussions, or just exploring options — we
@@ -66,7 +66,7 @@ export default function ContactPage() {
               <dl className="space-y-3 text-sm">
                 <div>
                   <dt className="text-xs font-semibold uppercase tracking-wide text-slate-500 mb-0.5">Registered Name</dt>
-                  <dd className="font-semibold text-slate-900">Hydra Forge Ltd.</dd>
+                  <dd className="font-semibold text-slate-900">Hydra Merge Ltd.</dd>
                 </div>
                 <div>
                   <dt className="text-xs font-semibold uppercase tracking-wide text-slate-500 mb-0.5">Address</dt>
@@ -150,7 +150,7 @@ export default function ContactPage() {
                   </svg>
                   <div>
                     <div>LinkedIn</div>
-                    <div className="text-xs font-normal opacity-80">Hydra Forge</div>
+                    <div className="text-xs font-normal opacity-80">Hydra Merge</div>
                   </div>
                 </a>
                 <a

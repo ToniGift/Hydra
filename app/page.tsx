@@ -252,7 +252,7 @@ export default function HomePage() {
               transition={{ duration: 0.7, delay: 0.2 }}
               className="text-slate-400 text-base sm:text-lg leading-relaxed max-w-xl mb-9"
             >
-              Hydra Forge is Nigeria&apos;s authorised agency bridging construction firms, developers, and
+              Hydra Merge is Nigeria&apos;s authorised agency bridging construction firms, developers, and
               contractors directly to pre-insulated pipe manufacturers — cutting procurement costs
               and guaranteeing ISO-certified, factory-direct supply across West Africa and Europe.
             </motion.p>
@@ -362,7 +362,7 @@ export default function HomePage() {
                 Our Process
               </span>
               <h2 className="font-display text-3xl sm:text-4xl font-bold text-slate-900 dark:text-white mb-4">
-                How Hydra Forge Works
+                How Hydra Merge Works
               </h2>
               <p className="text-slate-500 dark:text-slate-400 text-base leading-relaxed mb-6">
                 We remove complexity from industrial procurement — connecting your project directly
@@ -428,7 +428,7 @@ export default function HomePage() {
               {
                 step: "03",
                 title: "Factory-Direct Delivery",
-                desc: "Your order ships from the manufacturer's facility with full ISO documentation, technical support, and Hydra Forge handling every step of coordination.",
+                desc: "Your order ships from the manufacturer's facility with full ISO documentation, technical support, and Hydra Merge handling every step of coordination.",
                 icon: (
                   <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
@@ -634,7 +634,7 @@ export default function HomePage() {
               Markets We Serve
             </h2>
             <p className="text-slate-400 max-w-xl mx-auto text-base">
-              From our Lagos headquarters, Hydra Forge operates a seamless supply chain connecting
+              From our Lagos headquarters, Hydra Merge operates a seamless supply chain connecting
               clients across Nigeria, Africa, Europe and Asia to factory-direct manufacturer pricing.
             </p>
           </FadeInSection>
@@ -769,7 +769,7 @@ export default function HomePage() {
                 Why Choose Us
               </span>
               <h2 className="font-display text-3xl sm:text-4xl font-bold text-slate-900 dark:text-white mb-4">
-                The Hydra Forge Advantage
+                The Hydra Merge Advantage
               </h2>
               <p className="text-slate-500 dark:text-slate-400 max-w-xl">
                 We are not a distributor. We are a strategic bridge — your direct line to the
@@ -900,7 +900,7 @@ export default function HomePage() {
             </h2>
             <p className="text-slate-400 text-base sm:text-lg max-w-2xl mx-auto mb-10">
               Skip the middlemen. Submit your project requirements and receive a factory-direct
-              quote from Hydra Forge within 24 hours — tailored to your specification, destination,
+              quote from Hydra Merge within 24 hours — tailored to your specification, destination,
               and budget.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

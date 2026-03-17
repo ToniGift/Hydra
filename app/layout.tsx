@@ -20,11 +20,11 @@ const sourceSans = Source_Sans_3({
 
 export const metadata: Metadata = {
   title: {
-    default: "Hydra Forge — Client-to-Manufacturer Piping Solutions | Nigeria & Europe",
-    template: "%s | Hydra Forge",
+    default: "Hydra Merge — Client-to-Manufacturer Piping Solutions | Nigeria & Europe",
+    template: "%s | Hydra Merge",
   },
   description:
-    "Hydra Forge is Nigeria's authorised Client-to-Manufacturer agency for pre-insulated piping systems. Connecting contractors and developers directly with certified pipe manufacturers across Nigeria and Europe. ISO certified. Factory-direct pricing.",
+    "Hydra Merge is Nigeria's authorised Client-to-Manufacturer agency for pre-insulated piping systems. Connecting contractors and developers directly with certified pipe manufacturers across Nigeria and Europe. ISO certified. Factory-direct pricing.",
   keywords: [
     "pre-insulated pipes",
     "PEX piping",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     "Europe piping systems",
   ],
   openGraph: {
-    title: "Hydra Forge — Client-to-Manufacturer Piping Solutions",
+    title: "Hydra Merge — Client-to-Manufacturer Piping Solutions",
     description:
       "Authorised Manufacturer Partner. Premium pre-insulated PEX pipes. Nigeria-based agency serving West Africa and Europe. Factory-direct pricing, 24h quote turnaround.",
     type: "website",
