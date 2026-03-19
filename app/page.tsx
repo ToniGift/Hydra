@@ -525,8 +525,8 @@ export default function HomePage() {
           {/* Feature banner image */}
           <FadeInSection className="relative h-56 sm:h-64 rounded-2xl overflow-hidden mb-10 shadow-lg">
             <Image
-              src="/img-8.jpeg"
-              alt="Hydra Agency — pre-insulated pipe systems factory"
+              src="https://images.unsplash.com/photo-1687775421532-e5fec7a50fd4?w=1200&q=80"
+              alt="Hydra Merge — ISO-certified industrial manufacturing facility"
               fill
               className="object-cover"
               sizes="100vw"

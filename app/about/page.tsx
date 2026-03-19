@@ -54,8 +54,8 @@ export default function AboutPage() {
           </div>
           <div className="relative h-72 sm:h-80 rounded-2xl overflow-hidden shadow-xl">
             <Image
-              src="/img-3.jpeg"
-              alt="Hydra Agency factory operations — workers handling pre-insulated pipes"
+              src="https://images.unsplash.com/photo-1764835822981-1a3ccf47c369?w=800&q=80"
+              alt="Hydra Merge — worker inspects metal pipes at ISO-certified manufacturing facility"
               fill
               className="object-cover"
               sizes="(max-width: 1024px) 100vw, 50vw"
@@ -73,10 +73,10 @@ export default function AboutPage() {
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {[
-              { src: "/img-6.jpeg", alt: "Pre-insulated pipes with red protective caps ready for dispatch" },
-              { src: "/img-2.jpeg", alt: "Multi-pipe PEX bundle with blue inner pipes — factory detail" },
-              { src: "/img-9.jpeg", alt: "Fan arrangement of pre-insulated pipes — product showcase" },
-              { src: "/img-5.jpeg", alt: "Cross-section detail of pre-insulated pipe end cap" },
+              { src: "https://images.unsplash.com/photo-1767274714714-dda4c25c6376?w=600&q=80", alt: "Industrial pipes and valves in factory" },
+              { src: "https://images.unsplash.com/photo-1538474705339-e87de81450e8?w=600&q=80", alt: "Metal pipes and plumbing systems" },
+              { src: "https://images.unsplash.com/photo-1743580886673-812abb5acf3a?w=600&q=80", alt: "Pipes, valves and tanks — factory detail" },
+              { src: "https://images.unsplash.com/photo-1773517458766-82ddcbeef548?w=600&q=80", alt: "Industrial pipes and valve on textured wall" },
             ].map((img, i) => (
               <div key={i} className="relative h-44 sm:h-52 rounded-xl overflow-hidden shadow-md group">
                 <Image
@@ -112,8 +112,8 @@ export default function AboutPage() {
                 icon: "✅",
                 title: "ISO-Certified Products",
                 description: "Every product we source carries ISO certification and full technical documentation for compliance and peace of mind.",
-                bg: "bg-gradient-to-br from-emerald-50 to-emerald-100 border-emerald-200",
-                iconBg: "bg-emerald-500",
+                bg: "bg-gradient-to-br from-sky-50 to-sky-100 border-sky-200",
+                iconBg: "bg-sky-500",
               },
               {
                 icon: "⚡",
@@ -150,7 +150,7 @@ export default function AboutPage() {
                 location: "Lagos Island, Nigeria",
                 story:
                   "BuildRight required pre-insulated PEX pipes for a 240-unit housing development in Lagos. Hydra Merge connected them directly to the manufacturing facility, bypassing three distribution layers — delivering ISO-certified product at factory-direct cost and on a 6-week lead time.",
-                image: "/img-4.jpeg",
+                image: "https://images.unsplash.com/photo-1762344694205-b71db6dee791?w=800&q=80",
                 metrics: [
                   { label: "Units Served", value: "240+" },
                   { label: "Cost Saving", value: "30%" },
@@ -166,15 +166,15 @@ export default function AboutPage() {
                 location: "Abuja, Nigeria",
                 story:
                   "Apex Infrastructure required geothermal and district heating pipe systems for a commercial campus in Abuja FCT. Hydra Merge coordinated a factory-direct arrangement, provided full ISO documentation and manufacturer-certified installation guidance throughout the project.",
-                image: "/img-8.jpeg",
+                image: "https://images.unsplash.com/photo-1760921678729-9658c8b792bb?w=800&q=80",
                 metrics: [
                   { label: "Pipe Diameter", value: "63mm" },
                   { label: "Total Run", value: "2.4km" },
                   { label: "Certification", value: "ISO 15875" },
                 ],
-                accentColor: "border-t-emerald-500",
-                metricColor: "text-emerald-600",
-                metricBg: "bg-emerald-50",
+                accentColor: "border-t-hydra-blue",
+                metricColor: "text-hydra-blue",
+                metricBg: "bg-blue-50",
               },
             ].map((case_) => (
               <div
